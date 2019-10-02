@@ -1,5 +1,9 @@
+import edu.sjsu.macaldo.aaronjay.Appointment;
+import edu.sjsu.macaldo.aaronjay.Daily;
+import edu.sjsu.macaldo.aaronjay.Monthly;
+import edu.sjsu.macaldo.aaronjay.Onetime;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class AppointmentBook {
@@ -77,7 +81,7 @@ public class AppointmentBook {
                 for(int i = 0; i < appointmentBook.size(); i++) {
                     if(appointmentBook.get(i).occursOn(Integer.valueOf(outDate[0]), Integer.valueOf(outDate[1]), Integer.valueOf(outDate[2]))) {
                         numAppointments++;
-                        System.out.println("Appointment " + numAppointments + ": " + appointmentBook.get(i).description);
+                        System.out.println("Appointment " + numAppointments + ": " + appointmentBook.get(i).getDescription());
                     }
                 }
             }

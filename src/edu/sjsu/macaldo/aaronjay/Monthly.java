@@ -1,4 +1,6 @@
-public class Monthly extends Appointment{
+package edu.sjsu.macaldo.aaronjay;
+
+public class Monthly extends Appointment {
     public Monthly(String inDescription, int year, int month, int day) {
         super(inDescription, year, month, day);
     }

@@ -1,3 +1,5 @@
+package edu.sjsu.macaldo.aaronjay;
+
 public class Daily extends Appointment {
     public Daily(String inDescription, int year, int month, int day) {
         super(inDescription, year, month, day);

@@ -1,3 +1,4 @@
+import edu.sjsu.macaldo.aaronjay.BetterRectangle;
 import java.util.Scanner;
 
 public class BetterRectangleTester {

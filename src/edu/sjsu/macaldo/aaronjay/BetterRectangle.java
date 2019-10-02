@@ -1,3 +1,5 @@
+package edu.sjsu.macaldo.aaronjay;
+
 import java.awt.Rectangle;
 
 public class BetterRectangle extends Rectangle {
